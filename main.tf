@@ -7,8 +7,4 @@ provider "azurerm" {
   resource_provider_registrations = "none"
    
 }
-resource "azurerm_resource_group" "rg" {
-   name = var.name
-   location = var.location
-}
 
